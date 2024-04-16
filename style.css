@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Quicksand:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bungee Spice", sans-serif;
+}
+
+body {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+
+.math-game-container {
+  background-color: white;
+  width: 90%;
+  max-width: 31.25em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 5em 3em;
+  border-radius: 0.5em;
+}
+
+.math-game-container h3 {
+  font-size: 1.2em;
+  color: rgb(35, 35, 76);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.8em;
+}
+
+.math-game-container #math-game-submit-btn {
+  font-size: 1.2em;
+  font-weight: 500;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(244, 197, 49);
+  border-radius: 0.3em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #23234c;
+  padding: 0.6em 2em;
+}
+
+#math-game-error-msg {
+  text-align: center;
+  margin-top: 1em;
+  background-color: rgb(255, 221, 224);
+  color: rgb(214, 47, 47);
+  padding: 0.2em 0;
+}
+
+.math-game-container #math-game-questions {
+  background-color: rgb(238, 237, 241);
+  font-size: 2em;
+  font-weight: 600;
+  color: rgb(35, 35, 76);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.4em 0 1em 0;
+  padding: 1em 0;
+}
+
+.math-game-container input {
+  font-size: 1em;
+  font-weight: 600;
+  width: 2.35em;
+  color: rgb(35, 35, 76);
+  text-align: center;
+  padding: 0 0.2em;
+  border: none;
+  background-color: transparent;
+  border-bottom: 0.12em solid rgb(35, 35, 76);
+  margin: 0 0.25em;
+}
+
+.math-game-container input:focus {
+  border-color: rgb(244, 197, 49);
+  outline: none;
+}
+
+/*Hide Number Arrows*/
+.math-game-container input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.math-game-container input[type="number"]::-webkit-outer-spin-button,
+.math-game-container input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.math-game-controls-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(244, 197, 49);
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+#math-game-start-game-btn {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: rgb(35, 35, 76);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.8em 1.8em;
+  border-radius: 0.3em;
+}
+
+#math-game-result {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  color: rgb(35, 35, 76);
+}
+
+#math-game-result span {
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
+}
