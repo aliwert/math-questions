@@ -11,10 +11,11 @@
 To use this Math questions, follow these steps:
 
 1. Open the index.html file in a web browser.<br>
-2. Input your age, select your gender, and enter your height and weight.<br>
-3. Click the "Submit" button to calculate your BMI.<br>
-4. View your BMI result and see which health category you fall into.<br>
-
+2. Click on the "Start Game" button to begin playing.<br>
+3. Solve the math questions by entering your answer in the provided input field.<br>
+4. Click the "Submit" button to check your answer.<br>
+5. If your answer is correct, you'll see a success message. Otherwise, you'll receive feedback indicating whether your answer was incorrect or if there was an error in your input.<br>
+6. Click the "Restart" button to play again.
 ## Technologies Used
 -HTML<br>
 -CSS<br>
