@@ -20,3 +20,6 @@ To use this Math questions, follow these steps:
 -HTML<br>
 -CSS<br>
 -JavaScript<br>
+
+## Contributions
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
