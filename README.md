@@ -3,10 +3,10 @@
 
 # Math Game
 ## Features
--Random generation of math questions involving addition, subtraction, and multiplication.<br>
--Dynamic placement of the input field within the question to enhance user interaction.<br>
--Error handling for invalid inputs and empty submissions.<br>
--Responsive design for seamless gameplay across devices.<br>
+- Random generation of math questions involving addition, subtraction, and multiplication.<br>
+- Dynamic placement of the input field within the question to enhance user interaction.<br>
+- Error handling for invalid inputs and empty submissions.<br>
+- Responsive design for seamless gameplay across devices.<br>
 ## Usage
 To use this Math questions, follow these steps:
 
@@ -17,9 +17,9 @@ To use this Math questions, follow these steps:
 5. If your answer is correct, you'll see a success message. Otherwise, you'll receive feedback indicating whether your answer was incorrect or if there was an error in your input.<br>
 6. Click the "Restart" button to play again.
 ## Technologies Used
--HTML<br>
--CSS<br>
--JavaScript<br>
+- HTML<br>
+- CSS<br>
+- JavaScript<br>
 
 ## Contributions
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+- Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
